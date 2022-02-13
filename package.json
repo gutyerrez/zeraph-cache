@@ -1,0 +1,15 @@
+{
+  "name": "@vyrnn/zeraph-cache",
+  "version": "0.0.1-ALPHA",
+  "author": "Vinícius Gutierrez <srgutyerrez@gmail.com>",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@vyrnn/zeraph-provider": "link:../zeraph-provider"
+  }
+}
